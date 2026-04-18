@@ -4,7 +4,7 @@ import { getMovieDetails } from '../services/api';
 import { useMovieContext } from '../contexts/MovieContext';
 import MovieSkeleton from '../components/MovieSkeleton';
 import toast from 'react-hot-toast';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import '../css/MovieDetails.css';
 
