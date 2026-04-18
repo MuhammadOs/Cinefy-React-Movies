@@ -7,10 +7,15 @@
     transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
     box-shadow 0.3s ease;
   height: 100%;
+  box-shadow: var(--shadow);
+}
+
+.movie-link {
+  text-decoration: none;
+  color: inherit;
   display: flex;
   flex-direction: column;
-  box-shadow: var(--shadow);
-  animation: fadeIn 0.5s ease-out forwards;
+  height: 100%;
 }
 
 .movie-card:hover {
@@ -120,6 +125,19 @@
 .movie-info p {
   color: var(--secondary-text);
   font-size: 0.9rem;
+}
+
+.user-rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: rgba(255, 215, 0, 0.1);
+  color: #ffd700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
 
 .user-rating {

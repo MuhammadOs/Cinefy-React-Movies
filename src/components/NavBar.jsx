@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <NavLink to="/">Movie App</NavLink>
+        <NavLink to="/">CENIFY</NavLink>
       </div>
       <div className="navbar-links">
         <NavLink to="/" className="nav-link">
@@ -17,7 +17,14 @@ function NavBar() {
         <NavLink to="/favorites" className="nav-link">
           Favorites
         </NavLink>
-        <button className="theme-toggle" onClick={toggleTheme} title="Toggle Theme">
+        <NavLink to="/about" className="nav-link">
+          About
+        </NavLink>
+        <button
+          className="theme-toggle"
+          onClick={toggleTheme}
+          title="Toggle Theme"
+        >
           <i className={`fas ${isDarkMode ? 'fa-sun' : 'fa-moon'}`}></i>
         </button>
       </div>

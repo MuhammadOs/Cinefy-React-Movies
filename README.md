@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# CENIFY - Professional Movie Discovery Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CENIFY is a high-performance, feature-rich movie discovery application built with modern web technologies. It provides users with a seamless experience to explore, search, and manage their favorite films using the TMDB API.
 
-## Available Scripts
+![CENIFY Preview](https://cinefy-react-movies.vercel.app/)
 
-In the project directory, you can run:
+## 🚀 Key Features
 
-### `npm start`
+- **Dynamic Movie Discovery**: Browse popular and trending movies with real-time data.
+- **Advanced Search & Filtering**: Instant, debounced search and filtering by genre and release year.
+- **Infinite Scrolling**: Modern "endless feed" experience using `Intersection Observer`.
+- **Rich Movie Details**: Immersive detail pages with backdrops, trailers, and cast information.
+- **Personalized Experience**:
+  - Manage a personal **Watchlist**.
+  - Save **Favorites** for quick access.
+  - Rate movies with a custom **Star Rating** system.
+- **Professional UI/UX**:
+  - **Glassmorphism NavBar**: Modern, semi-transparent navigation with blur effects.
+  - **Dark/Light Mode**: Full theme support with persistent preferences.
+  - **Fluid Animations**: Physics-based motion using `Framer Motion`.
+  - **Skeleton Loaders**: Animated shimmer effects for a premium loading experience.
+- **SEO Optimized**: Dynamic meta tags and titles for every page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js (v18+)
+- **State Management**: TanStack Query (React Query) for server-state caching.
+- **Styling**: CSS3 with CSS Variables for theming.
+- **Animations**: Framer Motion.
+- **Routing**: React Router DOM (v7+).
+- **SEO**: React Helmet Async.
+- **Feedback**: React Hot Toast for non-intrusive notifications.
+- **Data Source**: TMDB (The Movie Database) API.
 
-### `npm test`
+## 📦 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/MuhammadOs/Movie_React.git
+   cd Movie_React
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Environment Setup**:
+   The application uses a built-in API key for demonstration. For production, please use your own TMDB API key in `src/services/api.js`.
 
-### `npm run eject`
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 👨‍💻 Developed By
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Muhammad Osama ElShamikh**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 📧 Email: [muhammad2372002@gmail.com](mailto:muhammad2372002@gmail.com)
+- 🐙 GitHub: [@MuhammadOs](https://github.com/MuhammadOs)
+- 💼 LinkedIn: [Muhammad Osama ElShamikh](https://www.linkedin.com/in/muhammad-osama-elshamikh)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📄 License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the [MIT License](LICENSE).
