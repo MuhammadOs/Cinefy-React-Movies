@@ -17,6 +17,9 @@ function NavBar() {
         <NavLink to="/favorites" className="nav-link">
           Favorites
         </NavLink>
+        <NavLink to="/watchlist" className="nav-link">
+          Watchlist
+        </NavLink>
         <NavLink to="/about" className="nav-link">
           About
         </NavLink>
